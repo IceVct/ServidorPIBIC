@@ -1,0 +1,26 @@
+{
+  "name": "servidorpibic",
+  "version": "1.0.0",
+  "description": "Servidor NodeJS que vai receber uma imagem de um aplicativo móvel, vai passar para um código C++ com OpenCV e vai retornar a resposta para o aplicativo.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IceVct/ServidorPIBIC.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IceVct/ServidorPIBIC/issues"
+  },
+  "homepage": "https://github.com/IceVct/ServidorPIBIC#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "crypto": "^1.0.1",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
+    "multer": "^1.3.0"
+  }
+}
