@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/IceVct/ServidorPIBIC#readme",
   "dependencies": {
+    "base64-img": "^1.0.4",
     "body-parser": "^1.18.2",
     "crypto": "^1.0.1",
     "express": "^4.16.3",
